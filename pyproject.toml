@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "similarity-search"
+version = "0.1.0"
+description = ""
+authors = ["Naomi Lago <naomilago6@gmail.com>"]
+readme = "README.md"
+packages = [{include = "similarity_search"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chromadb = "^0.3.26"
+pandas = "^2.0.2"
+faiss-cpu = "^1.7.4"
+ipykernel = "^6.23.3"
+torch = "^2.0.1"
+torchvision = "^0.15.2"
+torchaudio = "^2.0.2"
+sentence-transformers = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
